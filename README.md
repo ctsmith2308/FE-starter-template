@@ -1,4 +1,4 @@
 # FE-starter-template
-FE starter template with React, TypeScript, Tailwind and Webpack.
+FE non-CRA starter template with TypeScript, Tailwind and Webpack.
 
 
