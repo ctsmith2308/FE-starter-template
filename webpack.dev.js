@@ -7,8 +7,10 @@ module.exports = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
     static: {
-      directory: path.join(__dirname, 'src'),
-      hot: true,
+      staticOptions: {
+        hot: true
+      },
+      directory: './dist'
     },
     compress: true,
   },
